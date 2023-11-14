@@ -1,0 +1,127 @@
+<circuit Speed_sps="1000000" noLinAcc="5" type="simulide_0.4" Speed_per="100" Simu_Step_nS="1000" reactStep="50" animate="0">
+
+Unique  Id: TextComponent-191: 
+Circuit Id: TextComponent-191
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-196" boardRot="-1000000" Margin="5" objectName="TextComponent-191" id="TextComponent-191" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="false" mainComp="false" Border="1" itemtype="TextComponent" Text="10101010&#xa;00101000" valLabely="0" hflip="1" circRot="0" Font_Size="10" Opacity="1" labely="-24" y="-380"/>
+
+Unique  Id: TextComponent-97: 
+Circuit Id: TextComponent-97
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-316" boardRot="-1000000" Margin="5" objectName="TextComponent-97" id="TextComponent-97" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="true" mainComp="false" Border="1" itemtype="TextComponent" Text="7seg BCD statt 7Seg für weniger Pins used&#xa;= 4x4 = 16 PI/O&#xa;-1 Seg weil Prozentanzeige &#xa;= 12 PI/O" valLabely="0" hflip="1" circRot="nan" Font_Size="10" Opacity="1" labely="-24" y="-456"/>
+
+Unique  Id: 7-Seg BCD-85: 
+Circuit Id: 7-Seg BCD-85
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-332" boardRot="-1000000" objectName="7-Seg BCD-85" id="7-Seg BCD-85" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" mainComp="false" itemtype="7-Seg BCD" valLabely="0" hflip="1" circRot="4.2439915878593324e-314" labely="-24" y="-324"/>
+
+Unique  Id: Ground-17: 
+Circuit Id: Ground-17
+<item rotation="-90" boardPos="-1e+06,-1e+06" x="16" boardRot="-1000000" objectName="Ground-17" id="Ground-17" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" mainComp="false" itemtype="Ground" valLabely="0" hflip="1" circRot="1.0236025586772652e-306" labely="8" y="-140"/>
+
+Unique  Id: Voltage Source-12: 
+Circuit Id: Voltage Source-12
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-8" boardRot="-1000000" objectName="Voltage Source-12" id="Voltage Source-12" circPos="0,0" valLabelx="-26" labelrot="0" Show_id="false" labelx="-40" valLabRot="0" Voltage="5" vflip="1" mainComp="false" itemtype="Voltage Source" valLabely="10" hflip="1" circRot="-5.4861292803319049e+303" Show_Volt="true" labely="-80" Unit=" V" y="-52"/>
+
+Unique  Id: TextComponent-10: 
+Circuit Id: TextComponent-10
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-100" boardRot="-1000000" Margin="5" objectName="TextComponent-10" id="TextComponent-10" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="false" mainComp="false" Border="1" itemtype="TextComponent" Text="- Atmega hat Strom und Ground&#xa;- timed Strom an Voltimeter&#xa;- Voltimeter misst Feuchtigkeit in soil&#xa;- Antwort vom Voltimeter an Atmega&#xa;- Atmega berechnet percentage totale Spannung - gemessene Spannung&#xa;- berechnete ID + Prozent werden auf den 4x7 Display angezeigt&#xa;- Success" valLabely="0" hflip="1" circRot="0" Font_Size="10" Opacity="1" labely="-24" y="-332"/>
+
+Unique  Id: Voltimeter-7: 
+Circuit Id: Moisture sensor
+<item rotation="-450" boardPos="-1e+06,-1e+06" x="-68" boardRot="-1000000" objectName="Voltimeter-7" id="Moisture sensor" circPos="0,0" valLabelx="0" labelrot="90" Show_id="true" labelx="34" valLabRot="0" vflip="1" mainComp="false" itemtype="Voltimeter" valLabely="0" hflip="1" circRot="-5.4861292803319049e+303" labely="10" SwitchPins="false" y="-132"/>
+
+Unique  Id: atmega328-1: 
+Circuit Id: atmega328-1
+<item rotation="-360" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," Mhz="16" boardPos="-1e+06,-1e+06" x="-184" boardRot="-1000000" objectName="atmega328-1" Auto_Load="false" Name="" id="atmega328-1" circPos="0,0" valLabelx="0" labelrot="-360" Show_id="true" labelx="-10" valLabRot="0" vflip="1" mainComp="false" itemtype="AVR" Logic_Symbol="false" valLabely="0" hflip="1" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" circRot="25" labely="120" Init_gdb="false" Program="../Atmel Studio/7.0/moistureSensorTest7SegVoltiSimul/moistureSensorTest7SegVoltiSimul/Debug/moistureSensorTest7SegVoltiSimul.hex" y="-244"/>
+
+Unique  Id: 7-Seg BCD-105: 
+Circuit Id: 7-Seg BCD-105
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-32" boardRot="-1000000" objectName="7-Seg BCD-105" id="7-Seg BCD-105" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" mainComp="false" itemtype="7-Seg BCD" valLabely="0" hflip="1" circRot="0" labely="-24" y="-432"/>
+
+Unique  Id: 7-Seg BCD-106: 
+Circuit Id: 7-Seg BCD-106
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-276" boardRot="-1000000" objectName="7-Seg BCD-106" id="7-Seg BCD-106" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" mainComp="false" itemtype="7-Seg BCD" valLabely="0" hflip="1" circRot="4.2439915878593324e-314" labely="-24" y="-324"/>
+
+Unique  Id: 7-Seg BCD-107: 
+Circuit Id: 7-Seg BCD-107
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-236" boardRot="-1000000" objectName="7-Seg BCD-107" id="7-Seg BCD-107" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" mainComp="false" itemtype="7-Seg BCD" valLabely="0" hflip="1" circRot="0" labely="-24" y="-324"/>
+
+Unique  Id: TextComponent-108: 
+Circuit Id: TextComponent-108
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-476" boardRot="-1000000" Margin="5" objectName="TextComponent-108" id="TextComponent-108" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="true" mainComp="false" Border="1" itemtype="TextComponent" Text="usable PIO &#xa;on atmega328p &#xa;(without hastle):&#xa;C1-5&#xa;D0-7&#xa;B0,1&#xa;--------- =15" valLabely="0" hflip="1" circRot="nan" Font_Size="10" Opacity="1" labely="-24" y="-272"/>
+
+Unique  Id: TextComponent-123: 
+Circuit Id: TextComponent-123
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-4" boardRot="-1000000" Margin="5" objectName="TextComponent-123" id="TextComponent-123" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="true" mainComp="false" Border="1" itemtype="TextComponent" Text="          2||          1||          0&#xa; 3| 2| 1| 0|| 3| 2| 1| 0|| 3| 2| 1| 0&#xa;D7|D6|D5|D4||D3|D2|D1|D0||B5|B4|B3|B2" valLabely="0" hflip="1" circRot="nan" Font_Size="10" Opacity="1" labely="-24" y="-396"/>
+
+Unique  Id: TextComponent-131: 
+Circuit Id: TextComponent-131
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-48" boardRot="-1000000" Margin="5" objectName="TextComponent-131" id="TextComponent-131" circPos="0,0" Font="Helvetica [Cronyx]" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" vflip="1" Fixed_Width="true" mainComp="false" Border="1" itemtype="TextComponent" Text="reconnected voltimeter to C0 &#xa;because the voltimeter's Output is analogue,&#xa;needed ADC Channel" valLabely="0" hflip="1" circRot="-1.9882283519987068e-309" Font_Size="10" Opacity="1" labely="-24" y="-220"/>
+
+Unique  Id: Probe-153: 
+Circuit Id: Strom an moisture Sensor
+<item rotation="-45" boardPos="-1e+06,-1e+06" x="-376" boardRot="-1000000" objectName="Probe-153" id="Strom an moisture Sensor" circPos="0,0" valLabelx="16" labelrot="-45" Show_volt="true" Show_id="true" Threshold="2.5" labelx="8" valLabRot="45" vflip="1" mainComp="false" itemtype="Probe" valLabely="0" hflip="-1" circRot="nan" labely="36" y="-148"/>
+
+Unique  Id: Connector-112: 
+Circuit Id: Connector-112
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-161" boardRot="-1000000" objectName="Connector-112" endpinid="7-Seg BCD-85-in2" id="Connector-112" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-148,-284,-148,-284,-164,-332,-164,-332,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD6" valLabely="0" hflip="1" circRot="0" labely="-24" y="-148"/>
+
+Unique  Id: Connector-113: 
+Circuit Id: Connector-113
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-162" boardRot="-1000000" objectName="Connector-113" endpinid="7-Seg BCD-85-in1" id="Connector-113" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-156,-276,-156,-276,-172,-324,-172,-324,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD5" valLabely="0" hflip="1" circRot="0" labely="-24" y="-156"/>
+
+Unique  Id: Connector-114: 
+Circuit Id: Connector-114
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-163" boardRot="-1000000" objectName="Connector-114" endpinid="7-Seg BCD-85-in0" id="Connector-114" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-196,-316,-196,-316,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD4" valLabely="0" hflip="1" circRot="0" labely="-24" y="-196"/>
+
+Unique  Id: Connector-115: 
+Circuit Id: Connector-115
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-164" boardRot="-1000000" objectName="Connector-115" endpinid="7-Seg BCD-106-in3" id="Connector-115" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-204,-284,-204,-284,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD3" valLabely="0" hflip="1" circRot="0" labely="-24" y="-204"/>
+
+Unique  Id: Connector-116: 
+Circuit Id: Connector-116
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-165" boardRot="-1000000" objectName="Connector-116" endpinid="7-Seg BCD-106-in2" id="Connector-116" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-212,-276,-212,-276,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD2" valLabely="0" hflip="1" circRot="0" labely="-24" y="-212"/>
+
+Unique  Id: Connector-117: 
+Circuit Id: Connector-117
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-166" boardRot="-1000000" objectName="Connector-117" endpinid="7-Seg BCD-106-in1" id="Connector-117" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-220,-268,-220,-268,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD1" valLabely="0" hflip="1" circRot="0" labely="-24" y="-220"/>
+
+Unique  Id: Connector-118: 
+Circuit Id: Connector-118
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="Circ_eNode-167" boardRot="-1000000" objectName="Connector-118" endpinid="7-Seg BCD-106-in0" id="Connector-118" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-228,-260,-228,-260,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD0" valLabely="0" hflip="1" circRot="0" labely="-24" y="-228"/>
+
+Unique  Id: Connector-128: 
+Circuit Id: Connector-128
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-75" enodeid="Circ_eNode-168" boardRot="-1000000" objectName="Connector-128" endpinid="atmega328-1-PC0" id="Connector-128" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-76,-164,-76,-196,-144,-196" vflip="1" mainComp="false" itemtype="Connector" startpinid="Voltimeter-7-outnod" valLabely="0" hflip="1" circRot="0" labely="-24" y="-164"/>
+
+Unique  Id: Connector-129: 
+Circuit Id: Connector-129
+<item rotation="0" boardPos="-1e+06,-1e+06" x="0" enodeid="Circ_eNode-169" boardRot="-1000000" objectName="Connector-129" endpinid="Voltimeter-7-rPin" id="Connector-129" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="0,-140,-52,-140" vflip="1" mainComp="false" itemtype="Connector" startpinid="Ground-17-Gnd" valLabely="0" hflip="1" circRot="0" labely="-24" y="-140"/>
+
+Unique  Id: Connector-130: 
+Circuit Id: Connector-130
+<item rotation="0" boardPos="-1e+06,-1e+06" x="8" enodeid="Circ_eNode-170" boardRot="-1000000" objectName="Connector-130" endpinid="Voltimeter-7-lPin" id="Connector-130" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="8,-52,8,-124,-52,-124" vflip="1" mainComp="false" itemtype="Connector" startpinid="Voltage Source-12-outPin" valLabely="0" hflip="1" circRot="0" labely="-24" y="-52"/>
+
+Unique  Id: Connector-132: 
+Circuit Id: Connector-132
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-244" enodeid="Circ_eNode-171" boardRot="-1000000" objectName="Connector-132" endpinid="atmega328-1-PB5" id="Connector-132" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-244,-292,-244,-252,-140,-252,-140,-164,-144,-164" vflip="1" mainComp="false" itemtype="Connector" startpinid="7-Seg BCD-107-in3" valLabely="0" hflip="1" circRot="0" labely="-24" y="-292"/>
+
+Unique  Id: Connector-133: 
+Circuit Id: Connector-133
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-236" enodeid="Circ_eNode-172" boardRot="-1000000" objectName="Connector-133" endpinid="atmega328-1-PB4" id="Connector-133" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-236,-292,-236,-260,-132,-260,-132,-156,-144,-156" vflip="1" mainComp="false" itemtype="Connector" startpinid="7-Seg BCD-107-in2" valLabely="0" hflip="1" circRot="0" labely="-24" y="-292"/>
+
+Unique  Id: Connector-134: 
+Circuit Id: Connector-134
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-228" enodeid="Circ_eNode-173" boardRot="-1000000" objectName="Connector-134" endpinid="atmega328-1-PB3" id="Connector-134" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-228,-292,-228,-268,-124,-268,-124,-148,-144,-148" vflip="1" mainComp="false" itemtype="Connector" startpinid="7-Seg BCD-107-in1" valLabely="0" hflip="1" circRot="0" labely="-24" y="-292"/>
+
+Unique  Id: Connector-135: 
+Circuit Id: Connector-135
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-220" enodeid="Circ_eNode-174" boardRot="-1000000" objectName="Connector-135" endpinid="atmega328-1-PB2" id="Connector-135" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-220,-292,-220,-276,-116,-276,-116,-140,-144,-140" vflip="1" mainComp="false" itemtype="Connector" startpinid="7-Seg BCD-107-in0" valLabely="0" hflip="1" circRot="0" labely="-24" y="-292"/>
+
+Unique  Id: Connector-187: 
+Circuit Id: Connector-187
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="enode-187" boardRot="-1000000" objectName="Connector-187" endpinid="7-Seg BCD-85-in3" id="Connector-187" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-140,-340,-140,-340,-292" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PD7" valLabely="0" hflip="1" circRot="0" labely="-24" y="-140"/>
+
+Unique  Id: Connector-190: 
+Circuit Id: Connector-190
+<item rotation="0" boardPos="-1e+06,-1e+06" x="-192" enodeid="enode-190" boardRot="-1000000" objectName="Connector-190" endpinid="Probe-153-inpin" id="Connector-190" circPos="0,0" valLabelx="0" labelrot="0" Show_id="false" labelx="-16" valLabRot="0" pointList="-192,-132,-360,-132" vflip="1" mainComp="false" itemtype="Connector" startpinid="atmega328-1-PB0" valLabely="0" hflip="1" circRot="0" labely="-24" y="-132"/>
+ 
+</circuit>
